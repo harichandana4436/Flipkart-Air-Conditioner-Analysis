@@ -68,7 +68,7 @@ This analysis aims to identify:
 
 * Includes:
 
-** Brand
+- Brand
 
 *** Price (Original & Discounted)
 
