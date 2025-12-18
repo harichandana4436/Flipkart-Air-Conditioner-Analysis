@@ -68,19 +68,14 @@ This analysis aims to identify:
 
 * Includes:
 
-- Brand
+         * Brand
 
-*** Price (Original & Discounted)
-
-*** Ratings & Reviews
-
-*** Energy Rating
-
-*** Power Usage
-
-*** Capacity (Tonnage)
-
-*** Model Year
+             * Price (Original & Discounted)
+             * Ratings & Reviews
+             * Energy Rating
+             * Power Usage
+             * Capacity (Tonnage)
+             * Model Year
 
 # Data Collection (Web Scraping)
 
@@ -88,13 +83,10 @@ This analysis aims to identify:
 
 * Scraped product data such as:
 
-** Price
-
-** Ratings
-
-** Reviews
-
-** Features
+                     * Price
+                     * Ratings
+                     * Reviews
+                     * Features
 
 * Used Requests and BeautifulSoup to fetch and parse web pages
 
@@ -108,15 +100,15 @@ This analysis aims to identify:
 
 * Extracted and standardized:
 
-** Brand names
+                    * Brand names
 
-** Tonnage
+                    * Tonnage
 
-** Energy ratings
+                    * Energy ratings
 
-** Annual power usage
+                    * Annual power usage
 
-** Room size
+                    * Room size
 
 * Handled missing values and corrected data types
 
@@ -174,6 +166,8 @@ The Power BI dashboard provides:
 
 ## Power BI DashBoard 1
 <img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/6e4163bf-4be0-42f4-a2b3-0be5126f8c71" />
+
+
 ## Power BI DashBoard 2
 <img width="1920" height="1020" alt="Screenshot 2025-12-18 113321" src="https://github.com/user-attachments/assets/da95eb65-85c8-4e2b-9e0c-5745c535c77b" />
 
