@@ -1,15 +1,15 @@
 # Flipkart Air Conditioner Web Scraping & Analysis 📊❄️
-Project Overview
+## Project Overview
 
 This project focuses on web scraping, data analysis, and visualization of Air Conditioner products listed on Flipkart.
 The goal is to analyze pricing, features, ratings, reviews, energy efficiency, and brand positioning to help customers identify the best value-for-money air conditioners.
 
-The project includes:
+## The project includes:
 
 * A Python web scraping notebook
 * A Power BI interactive dashboard
 * A presentation (PPT) explaining the end-to-end analysis
-Business Problem
+## Business Problem
 
 Flipkart offers a large number of air conditioner models with varying:
 
@@ -30,7 +30,7 @@ This analysis aims to identify:
 
 * Best-performing brands in terms of value for money
 
-Objectives
+## Objectives
 
 * Analyze and compare Flipkart air conditioner models
 
@@ -40,178 +40,178 @@ Objectives
 
 * Understand brand positioning (budget, mid-range, premium)
 
-Tools & Technologies Used
+## Tools & Technologies Used
 
-Python
+* Python
 
-Requests
+* Requests
 
-BeautifulSoup
+* BeautifulSoup
 
-Pandas
+* Pandas
 
-NumPy
+* NumPy
 
-Matplotlib / Seaborn
+* Matplotlib / Seaborn
 
-Power BI
+* Power BI
 
-Jupyter Notebook
+* Jupyter Notebook
 
-Dataset Information
+## Dataset Information
 
-Source: Flipkart (Web Scraped)
+* Source: Flipkart (Web Scraped)
 
-Rows: 2,288
+* Rows: 2,288
 
-Columns: 18
+* Columns: 18
 
-Includes:
+* Includes:
 
-Brand
+** Brand
 
-Price (Original & Discounted)
+*** Price (Original & Discounted)
 
-Ratings & Reviews
+*** Ratings & Reviews
 
-Energy Rating
+*** Energy Rating
 
-Power Usage
+*** Power Usage
 
-Capacity (Tonnage)
+*** Capacity (Tonnage)
 
-Model Year
+*** Model Year
 
-Data Collection (Web Scraping)
+# Data Collection (Web Scraping)
 
-Identified relevant HTML elements using browser developer tools
+* Identified relevant HTML elements using browser developer tools
 
-Scraped product data such as:
+* Scraped product data such as:
 
-Price
+** Price
 
-Ratings
+** Ratings
 
-Reviews
+** Reviews
 
-Features
+** Features
 
-Used Requests and BeautifulSoup to fetch and parse web pages
+* Used Requests and BeautifulSoup to fetch and parse web pages
 
-Stored raw data for cleaning and analysis
+* Stored raw data for cleaning and analysis
 
-Data Cleaning & Preprocessing
+# Data Cleaning & Preprocessing
 
-Removed unwanted characters (₹, commas, text labels)
+* Removed unwanted characters (₹, commas, text labels)
 
-Converted price, ratings, reviews, and discounts to numeric format
+* Converted price, ratings, reviews, and discounts to numeric format
 
-Extracted and standardized:
+* Extracted and standardized:
 
-Brand names
+** Brand names
 
-Tonnage
+** Tonnage
 
-Energy ratings
+** Energy ratings
 
-Annual power usage
+** Annual power usage
 
-Room size
+** Room size
 
-Handled missing values and corrected data types
+* Handled missing values and corrected data types
 
-Renamed columns for better readability
+* Renamed columns for better readability
 
-Treated outliers to improve analysis reliability
+* Treated outliers to improve analysis reliability
 
-Exploratory Data Analysis (EDA)
-Univariate Analysis
+## Exploratory Data Analysis (EDA)
+### Univariate Analysis
 
-Majority of ACs are 2025 models, showing focus on newer products
+* Majority of ACs are 2025 models, showing focus on newer products
 
-Blue Star has the highest product share
+* Blue Star has the highest product share
 
-Several brands have limited market presence
+* Several brands have limited market presence
 
-Bivariate Analysis
+### Bivariate Analysis
 
-Premium brands (LG, IFB, Daikin) have higher prices
+* Premium brands (LG, IFB, Daikin) have higher prices
 
-Budget brands (MarQ, Lloyd) focus on affordability
+* Budget brands (MarQ, Lloyd) focus on affordability
 
-Mid-range price segment shows highest customer engagement
+* Mid-range price segment shows highest customer engagement
 
-No strong linear relationship between price and reviews
+* No strong linear relationship between price and reviews
 
-Slight decline in average ratings from 2024 to 2025
+* Slight decline in average ratings from 2024 to 2025
 
-Multivariate Analysis
+### Multivariate Analysis
 
-Strong correlation between original price and discount price
+* Strong correlation between original price and discount price
 
-Power usage moderately affects price
+* Power usage moderately affects price
 
-Ratings and reviews have weak influence on pricing
+* Ratings and reviews have weak influence on pricing
 
-Some budget brands offer high ratings at lower prices
+* Some budget brands offer high ratings at lower prices
 
-Limited availability of 5-star energy-efficient models
+* Limited availability of 5-star energy-efficient models
 
 
-Power BI Dashboard
+# Power BI Dashboard
 
 The Power BI dashboard provides:
 
-Brand-wise price comparison
+* Brand-wise price comparison
 
-Rating and review distribution
+* Rating and review distribution
 
-Energy rating analysis
+* Energy rating analysis
 
-Price vs customer engagement insights
+* Price vs customer engagement insights
 
-Interactive filters for better exploration
+* Interactive filters for better exploration
 
-Power BI DashBoard 1
+## Power BI DashBoard 1
 <img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/6e4163bf-4be0-42f4-a2b3-0be5126f8c71" />
-Power BI DashBoard 2
+## Power BI DashBoard 2
 <img width="1920" height="1020" alt="Screenshot 2025-12-18 113321" src="https://github.com/user-attachments/assets/da95eb65-85c8-4e2b-9e0c-5745c535c77b" />
 
-Presentation
+## Presentation
 
-A detailed PPT explaining:
+* A detailed PPT explaining:
 
-Business problem
+* Business problem
 
-Objectives
+* Objectives
 
-Web scraping process
+* Web scraping process
 
-Data cleaning steps
+* Data cleaning steps
 
-Key insights and visualizations
+* Key insights and visualizations
 
-Conclusion and challenges faced
-Conclusion
+* Conclusion and challenges faced
+## Conclusion
 
-Flipkart primarily lists newer AC models
+* Flipkart primarily lists newer AC models
 
-Premium pricing does not always guarantee better ratings
+* Premium pricing does not always guarantee better ratings
 
-Mid-range and budget brands often provide better value
+* Mid-range and budget brands often provide better value
 
-Energy efficiency should be prioritized alongside price
+* Energy efficiency should be prioritized alongside price
 
-Discounts play a major role in influencing purchase decisions
+* Discounts play a major role in influencing purchase decisions
 
-Challenges Faced
+## Challenges Faced
 
-Website structure changes during scraping
+* Website structure changes during scraping
 
-Inconsistent and unstructured raw data
+* Inconsistent and unstructured raw data
 
-Handling mixed text and numeric values
+* Handling mixed text and numeric values
 
-Outlier treatment without losing meaningful insights
+* Outlier treatment without losing meaningful insights
 
-Ratings and reviews not always aligning with pricing
+* Ratings and reviews not always aligning with pricing
